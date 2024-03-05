@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    text-align: center;
+    background: #000;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    font-size: 1em;
+    border: 2px solid #fff;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+button{
+    margin: 0 0 7px 0;
+    padding: 5px 10px;
+    background: #0000ff;
+    color: #fff;
+    border: 2px solid #0000ff;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #0000ff;
+    background: #fff;
+    border: 2px solid #0000ff;
+    
+}
+
+button:nth-child(odd){
+    background: #ff0000;
+    border: 2px solid #ff0000;
+}
+
+button:nth-child(odd):hover{
+    color: #ff0000;
+    background: #fff;
+
+}
+
+.fail{
+    color: #ff0000;
+}
+
+.pass{
+    color: #00ff00;
+}
+
+
+
