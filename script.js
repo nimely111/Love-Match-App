@@ -30,7 +30,6 @@ document.getElementById('love-found1').appendChild(p);
         let result = document.getElementById('love-found1');
         result.innerHTML = 'Congrats, you both match';
         result.classList.add('pass')
-        // result.audio('./Ada-Cheta.mp3').play()
 
 }else{
         let result = document.getElementById('love-found1')
