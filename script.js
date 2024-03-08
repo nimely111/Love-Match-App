@@ -22,7 +22,6 @@ function match(p, text_Answer1, result){
         p.appendChild(text_Answer1);
         document.querySelector('.love-found').appendChild(p);
 
-    console.log(person_Age, love_Match);
     if(person_Age >= love_Match){
         result = document.querySelector('.love-found');
         result.innerHTML = 'Congrats, you both match';
