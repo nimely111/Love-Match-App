@@ -1,2 +1,2 @@
 #LOVE MATCH APP
- mini platform where user can find random love that match their age
+ mini platform where users can find random lovers that match their ages
