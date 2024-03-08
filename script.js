@@ -27,12 +27,12 @@ document.getElementById('love-found1').appendChild(p);
 
     console.log(personAge, loveMatch);
     if(personAge >= loveMatch){
-        let result = document.getElementById('love-found1');
+        let result = document.getElementById('love-found');
         result.innerHTML = 'Congrats, you both match';
         result.classList.add('pass')
 
 }else{
-        let result = document.getElementById('love-found1')
+        let result = document.getElementById('love-found')
         result.innerHTML = 'Sorry, We did not find your match, please try again'; 
         result.classList.add('fail')
 }
