@@ -17,16 +17,16 @@ function search(){
 
 function match(){
 var p = document.createElement('p');
-var textAnswer1 = document.createTextNode( '');
+var text_Answer1 = document.createTextNode( '');
 p.setAttribute('id','condition');
-p.appendChild(textAnswer1);
+p.appendChild(text_Answer1);
 document.getElementById('love-found1').appendChild(p);
 
     // var x = 2;
     // var y = 1;
 
-    console.log(personAge, loveMatch);
-    if(personAge >= loveMatch){
+    console.log(person_Age, love_Match);
+    if(person_Age >= love_Match){
         let result = document.querySelector('.love-found');
         result.innerHTML = 'Congrats, you both match';
         result.classList.add('pass')
