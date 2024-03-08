@@ -32,7 +32,7 @@ document.getElementById('love-found1').appendChild(p);
         result.classList.add('pass')
 
 }else{
-        let result = document.querySelector('love-found')
+        let result = document.querySelector('.love-found')
         result.innerHTML = 'Sorry, We did not find your match, please try again'; 
         result.classList.add('fail')
 }
