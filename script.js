@@ -22,7 +22,7 @@ function match(p, text_Answer1, result){
         text_Answer1 = document.createTextNode( '');
         p.setAttribute('id','condition');
         p.appendChild(text_Answer1);
-        document.querySelector('.love-found').appendChild(p);
+        love_Found.appendChild(p);
 
     if(person_Age >= love_Match){
         result = document.querySelector('.love-found');
