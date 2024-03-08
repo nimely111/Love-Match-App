@@ -16,8 +16,8 @@ function search(h1_Element, love_Match){
 }
 
 function match(){
-var p = document.createElement('p');
-var text_Answer1 = document.createTextNode( '');
+let p = document.createElement('p');
+let text_Answer1 = document.createTextNode( '');
 p.setAttribute('id','condition');
 p.appendChild(text_Answer1);
 document.querySelector('.love-found').appendChild(p);
