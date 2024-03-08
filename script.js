@@ -28,7 +28,7 @@ function match(p, text_Answer1, result){
         result.innerHTML = 'Congrats, you both match';
         result.classList.add('pass')
 
-}else{
+    }else{
         result = document.querySelector('.app-response')
         result.innerHTML = 'Sorry, We did not find your match, please try again'; 
         result.classList.add('fail')
