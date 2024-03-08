@@ -22,9 +22,6 @@ p.setAttribute('id','condition');
 p.appendChild(text_Answer1);
 document.querySelector('.love-found').appendChild(p);
 
-    // var x = 2;
-    // var y = 1;
-
     console.log(person_Age, love_Match);
     if(person_Age >= love_Match){
         result = document.querySelector('.love-found');
