@@ -13,7 +13,7 @@ function search(h1_Element, love_Match){
         h1_Element.setAttribute('id', 'loveMatch');
         h1_Element.appendChild(document.createTextNode
             (`${person_Name}, your love match is ${love_Match} & you are ${person_Age} years old`));
-        document.querySelector('.love-found').appendChild(h1_Element);
+            love_Found.appendChild(h1_Element);
         match();
 }
 
