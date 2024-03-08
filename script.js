@@ -11,7 +11,7 @@ function search(){
     var text_Answer = document.createTextNode(person_Name + ', your love match is ' + love_Match + ' & you are ' + person_Age + ' years old');
     h1_Element.setAttribute('id', 'loveMatch');
     h1_Element.appendChild(text_Answer);
-    document.getElementById('love-found').appendChild(h1_Element);
+    document.querySelector('.love-found').appendChild(h1_Element);
     match();
 }
 
