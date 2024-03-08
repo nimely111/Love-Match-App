@@ -17,6 +17,7 @@ function search(h1_Element, love_Match){
         match();
 }
 
+//match users to their random love match
 function match(p, text_Answer1, result){
         p = document.createElement('p');
         text_Answer1 = document.createTextNode( '');
