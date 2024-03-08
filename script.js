@@ -1,16 +1,16 @@
 //global variabes
-let personAge;
-let loveMatch;
-let  personName;
+let person_Age;
+let love_Match;
+let  person_Name;
 // search btn
 function search(){
-     personName = prompt('What is your name?');
-     personAge = prompt('What is your age?');
+     person_Name = prompt('What is your name?');
+     person_Age = prompt('What is your age?');
     var h1Element = document.createElement('h1');
-     loveMatch = Math.floor(Math.random() * 100);
-    var textAnswer = document.createTextNode(personName + ', your love match is ' + loveMatch + ' & you are ' + personAge + ' years old');
+     love_Match = Math.floor(Math.random() * 100);
+    var text_Answer = document.createTextNode(personName + ', your love match is ' + loveMatch + ' & you are ' + person_Age + ' years old');
     h1Element.setAttribute('id', 'loveMatch');
-    h1Element.appendChild(textAnswer);
+    h1Element.appendChild(text_Answer);
     document.getElementById('love-found').appendChild(h1Element);
     match();
 }
