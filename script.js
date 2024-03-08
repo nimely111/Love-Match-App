@@ -4,15 +4,15 @@ let love_Match;
 let  person_Name;
 // search btn
 function search(h1_Element, love_Match){
-     person_Name = prompt('What is your name?');
-     person_Age = prompt('What is your age?');
-     h1_Element = document.createElement('h1');
-     love_Match = Math.floor(Math.random() * 100);
-     h1_Element.setAttribute('id', 'loveMatch');
-     h1_Element.appendChild(document.createTextNode
-        (`${person_Name}, your love match is ${love_Match} & you are ${person_Age} years old`));
-    document.querySelector('.love-found').appendChild(h1_Element);
-    match();
+        person_Name = prompt('What is your name?');
+        person_Age = prompt('What is your age?');
+        h1_Element = document.createElement('h1');
+        love_Match = Math.floor(Math.random() * 100);
+        h1_Element.setAttribute('id', 'loveMatch');
+        h1_Element.appendChild(document.createTextNode
+            (`${person_Name}, your love match is ${love_Match} & you are ${person_Age} years old`));
+        document.querySelector('.love-found').appendChild(h1_Element);
+        match();
 }
 
 function match(p, text_Answer1, result){
