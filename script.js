@@ -16,11 +16,11 @@ function search(h1_Element, love_Match){
 }
 
 function match(p, text_Answer1, result){
- p = document.createElement('p');
- text_Answer1 = document.createTextNode( '');
-p.setAttribute('id','condition');
-p.appendChild(text_Answer1);
-document.querySelector('.love-found').appendChild(p);
+    p = document.createElement('p');
+    text_Answer1 = document.createTextNode( '');
+    p.setAttribute('id','condition');
+    p.appendChild(text_Answer1);
+    document.querySelector('.love-found').appendChild(p);
 
     console.log(person_Age, love_Match);
     if(person_Age >= love_Match){
