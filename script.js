@@ -42,5 +42,3 @@ function reset(){
     love_Match_Result.remove()
     document.getElementById('condition').remove();
 }
-
-// A 10 times guesses game 
