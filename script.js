@@ -2,6 +2,7 @@
 let person_Age;
 let love_Match;
 let  person_Name;
+let  love_Match_Result = document.getElementById('loveMatch');
 // search btn
 function search(h1_Element, love_Match){
         person_Name = prompt('What is your name?');
@@ -36,7 +37,6 @@ function match(p, text_Answer1, result){
 
 // reset
 function reset(){
-    document.getElementById('loveMatch').remove();
     document.getElementById('condition').remove();
 }
 
