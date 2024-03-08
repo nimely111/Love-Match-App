@@ -20,7 +20,7 @@ var p = document.createElement('p');
 var text_Answer1 = document.createTextNode( '');
 p.setAttribute('id','condition');
 p.appendChild(text_Answer1);
-document.getElementById('love-found1').appendChild(p);
+document.querySelector('.love-found').appendChild(p);
 
     // var x = 2;
     // var y = 1;
