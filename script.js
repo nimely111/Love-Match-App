@@ -6,12 +6,12 @@ let  personName;
 function search(){
      personName = prompt('What is your name?');
      personAge = prompt('What is your age?');
-    var h1 = document.createElement('h1');
+    var h1Element = document.createElement('h1');
      loveMatch = Math.floor(Math.random() * 100);
     var textAnswer = document.createTextNode(personName + ', your love match is ' + loveMatch + ' & you are ' + personAge + ' years old');
-    h1.setAttribute('id', 'loveMatch');
-    h1.appendChild(textAnswer);
-    document.getElementById('love-found').appendChild(h1);
+    h1Element.setAttribute('id', 'loveMatch');
+    h1Element.appendChild(textAnswer);
+    document.getElementById('love-found').appendChild(h1Element);
     match();
 }
 
