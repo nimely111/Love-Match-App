@@ -3,12 +3,12 @@ let person_Age;
 let love_Match;
 let  person_Name;
 // search btn
-function search(){
+function search(h1_Element, love_Match){
      person_Name = prompt('What is your name?');
      person_Age = prompt('What is your age?');
-    let h1_Element = document.createElement('h1');
+     h1_Element = document.createElement('h1');
      love_Match = Math.floor(Math.random() * 100);
-    let text_Answer = document.createTextNode(person_Name + ', your love match is ' + love_Match + ' & you are ' + person_Age + ' years old');
+     text_Answer = document.createTextNode(person_Name + ', your love match is ' + love_Match + ' & you are ' + person_Age + ' years old');
     h1_Element.setAttribute('id', 'loveMatch');
     h1_Element.appendChild(text_Answer);
     document.querySelector('.love-found').appendChild(h1_Element);
