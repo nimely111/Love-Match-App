@@ -15,7 +15,7 @@ function search(h1_Element, love_Match){
     match();
 }
 
-function match(p, text_Answer1){
+function match(p, text_Answer1, result){
  p = document.createElement('p');
  text_Answer1 = document.createTextNode( '');
 p.setAttribute('id','condition');
@@ -27,12 +27,12 @@ document.querySelector('.love-found').appendChild(p);
 
     console.log(person_Age, love_Match);
     if(person_Age >= love_Match){
-        let result = document.querySelector('.love-found');
+        result = document.querySelector('.love-found');
         result.innerHTML = 'Congrats, you both match';
         result.classList.add('pass')
 
 }else{
-        let result = document.querySelector('.app-response')
+        result = document.querySelector('.app-response')
         result.innerHTML = 'Sorry, We did not find your match, please try again'; 
         result.classList.add('fail')
 }
