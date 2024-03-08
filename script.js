@@ -27,7 +27,7 @@ document.getElementById('love-found1').appendChild(p);
 
     console.log(personAge, loveMatch);
     if(personAge >= loveMatch){
-        let result = document.getElementById('love-found');
+        let result = document.querySelector('.love-found');
         result.innerHTML = 'Congrats, you both match';
         result.classList.add('pass')
 
