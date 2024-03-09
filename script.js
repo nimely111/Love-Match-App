@@ -4,8 +4,8 @@ let  love_Match;
 let  person_Name;
 let  love_Match_Result = document.getElementById('loveMatch');
 let  love_Found = document.querySelector('.love-found');
-// search btn
 const search = document.querySelector('#search'); 
+// search btn
 search.onclick = function (h1_Element, love_Match){
     person_Name = prompt('What is your name?');
     person_Age = prompt('What is your age?');
