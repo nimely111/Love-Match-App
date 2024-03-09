@@ -5,7 +5,8 @@ let  person_Name;
 let  love_Match_Result = document.getElementById('loveMatch');
 let  love_Found = document.querySelector('.love-found');
 // search btn
-const search = document.addEventListener('submit', function (h1_Element, love_Match){
+const search = document.querySelector('#search'); 
+search.onclick = function (h1_Element, love_Match){
     person_Name = prompt('What is your name?');
     person_Age = prompt('What is your age?');
     h1_Element = document.createElement('h1');
@@ -15,7 +16,7 @@ const search = document.addEventListener('submit', function (h1_Element, love_Ma
         (`${person_Name}, your love match is ${love_Match} & you are ${person_Age} years old`));
         love_Found.appendChild(h1_Element);
     match();
-})
+}
 
 
 //match users to their random love match
