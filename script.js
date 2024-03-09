@@ -5,6 +5,7 @@ let  person_Name;
 let  love_Match_Result = document.getElementById('loveMatch');
 let  love_Found = document.querySelector('.love-found');
 const search = document.querySelector('#search'); 
+const reset = document.querySelector('#reset'); 
 // search btn
 search.onclick = function (h1_Element, love_Match){
     person_Name = prompt('What is your name?');
