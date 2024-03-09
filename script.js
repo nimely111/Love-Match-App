@@ -1,6 +1,6 @@
 //global variabes
-let person_Age;
-let love_Match;
+let  person_Age;
+let  love_Match;
 let  person_Name;
 let  love_Match_Result = document.getElementById('loveMatch');
 let  love_Found = document.querySelector('.love-found');
