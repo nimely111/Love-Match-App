@@ -7,7 +7,7 @@ let  love_Found = document.querySelector('.love-found');
 const search = document.querySelector('#search'); 
 const reset = document.querySelector('#reset'); 
 // search btn
-search.onclick = function (h1_Element, love_Match){
+search.onclick = (h1_Element, love_Match) => {
     person_Name = prompt('What is your name?');
     person_Age = prompt('What is your age?');
     h1_Element = document.createElement('h1');
