@@ -41,7 +41,10 @@ function match(p, text_Answer1, result){
 }
 
 // reset
-function reset(){
+
+reset.onclick = function(){
     love_Match_Result.remove()
     document.getElementById('condition').remove();
+}
+function reset(){
 }
