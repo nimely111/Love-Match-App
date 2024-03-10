@@ -46,5 +46,3 @@ reset.onclick = function(){
     love_Match_Result.remove()
     document.getElementById('condition').remove();
 }
-function reset(){
-}
